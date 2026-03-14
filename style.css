@@ -34,7 +34,17 @@ body {
 
 @media (max-width: 768px) {
     section {
-        padding: 5rem 0 !important;
+        padding: 4rem 0 !important;
+    }
+    .container {
+        padding: 0 1.5rem;
+    }
+    h1, h2, .title {
+        font-size: clamp(2rem, 8vw, 2.5rem) !important;
+        line-height: 1.1 !important;
+    }
+    .description, p {
+        font-size: 1rem !important;
     }
 }
 
